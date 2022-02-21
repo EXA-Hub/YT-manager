@@ -1,0 +1,14 @@
+{
+  "name": "tiktok",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "tiktok-app-api": "^1.4.1"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "zampx",
+  "license": "MIT"
+}

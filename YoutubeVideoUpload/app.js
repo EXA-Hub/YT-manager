@@ -96,7 +96,9 @@ app.post("/upload", (req, res) => {
             },
             // I don't want to spam my subscribers
             status: {
-              privacyStatus: "private",
+              privacyStatus: "public",
+              publicStatsViewable: true,
+              embeddable: true,
             },
           },
           // This is for the callback function
